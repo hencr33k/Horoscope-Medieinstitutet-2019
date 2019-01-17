@@ -4,14 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div>
-        <input type="date">
-        <button>spara mitt horoskop</button>
-        <button>uppdatera mitt horoskop</button>
-        <button>radera mitt horoskop</button>
+        <input type="text">
+        <button id="saveBtn">spara mitt horoskop</button>
+        <button id="updateBtn">uppdatera mitt horoskop</button>
+        <button id="deleteBtn">radera mitt horoskop</button>
+    </div>
+    <p>Skriv månad(1-12), bindestreck dag(1-31)</p>
+    <p>Ex: 1-31 = trettioförsta Januari</p>
+    <div class="horoscopeDiv">
+
     </div>
 </body>
 </html>
